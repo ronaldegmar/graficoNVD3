@@ -7,4 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'novus\\nvd3' => array($vendorDir . '/novus/nvd3/src'),
+    'Drush' => array($vendorDir . '/drush/drush/lib'),
+    'Boris' => array($vendorDir . '/d11wtq/boris/lib'),
 );
