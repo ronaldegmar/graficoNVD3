@@ -17,45 +17,6 @@
         }
     },
     {
-        "name": "mbostock/d3",
-        "version": "v3.5.5",
-        "version_normalized": "3.5.5.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/mbostock/d3.git",
-            "reference": "a40a611d6b9fc4ff3815ca830d86b6c00d130995"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/mbostock/d3/zipball/a40a611d6b9fc4ff3815ca830d86b6c00d130995",
-            "reference": "a40a611d6b9fc4ff3815ca830d86b6c00d130995",
-            "shasum": ""
-        },
-        "time": "2015-02-10 16:33:30",
-        "type": "library",
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Mike Bostock",
-                "homepage": "http://bost.ocks.org/mike"
-            }
-        ],
-        "description": "A JavaScript visualization library for HTML and SVG.",
-        "homepage": "http://d3js.org/",
-        "keywords": [
-            "W3C",
-            "animation",
-            "canvas",
-            "dom",
-            "svg",
-            "visualization"
-        ]
-    },
-    {
         "name": "pear/console_table",
         "version": "1.2.1",
         "version_normalized": "1.2.1.0",
@@ -263,24 +224,63 @@
         "description": "A tiny, but robust REPL (Read-Evaluate-Print-Loop) for PHP."
     },
     {
-        "name": "drush/drush",
-        "version": "8.0.0-beta11",
-        "version_normalized": "8.0.0.0-beta11",
+        "name": "mbostock/d3",
+        "version": "v3.5.5",
+        "version_normalized": "3.5.5.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/drush-ops/drush.git",
-            "reference": "cb9a2842542364eacba1e793a96c593189b359d9"
+            "url": "https://github.com/mbostock/d3.git",
+            "reference": "a40a611d6b9fc4ff3815ca830d86b6c00d130995"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/drush-ops/drush/zipball/cb9a2842542364eacba1e793a96c593189b359d9",
-            "reference": "cb9a2842542364eacba1e793a96c593189b359d9",
+            "url": "https://api.github.com/repos/mbostock/d3/zipball/a40a611d6b9fc4ff3815ca830d86b6c00d130995",
+            "reference": "a40a611d6b9fc4ff3815ca830d86b6c00d130995",
+            "shasum": ""
+        },
+        "time": "2015-02-10 16:33:30",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Mike Bostock",
+                "homepage": "http://bost.ocks.org/mike"
+            }
+        ],
+        "description": "A JavaScript visualization library for HTML and SVG.",
+        "homepage": "http://d3js.org/",
+        "keywords": [
+            "W3C",
+            "animation",
+            "canvas",
+            "dom",
+            "svg",
+            "visualization"
+        ]
+    },
+    {
+        "name": "drush/drush",
+        "version": "7.0.0",
+        "version_normalized": "7.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/drush-ops/drush.git",
+            "reference": "02a9841b29daba7b55295903c1c4b0a45c9abdc5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/drush-ops/drush/zipball/02a9841b29daba7b55295903c1c4b0a45c9abdc5",
+            "reference": "02a9841b29daba7b55295903c1c4b0a45c9abdc5",
             "shasum": ""
         },
         "require": {
             "d11wtq/boris": "~1.0",
             "pear/console_table": "~1.2.0",
-            "php": ">=5.4.5",
+            "php": ">=5.3.0",
             "symfony/var-dumper": "^2.6.3",
             "symfony/yaml": "~2.2"
         },
@@ -288,10 +288,7 @@
             "phpunit/phpunit": ">=3.5",
             "symfony/process": "2.4.5"
         },
-        "suggest": {
-            "drush/config-extra": "Provides configuration workflow commands, such as config-merge."
-        },
-        "time": "2015-06-03 23:11:09",
+        "time": "2015-05-20 14:23:37",
         "bin": [
             "drush",
             "drush.php",
@@ -301,7 +298,7 @@
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "8.0.x-dev"
+                "dev-master": "7.0.x-dev"
             }
         },
         "installation-source": "dist",

@@ -24,8 +24,7 @@
 "require": {        
 	"novus/nvd3": "dev-master",
 	"mbostock/d3": "^3.5",
-	"drush/drush": "8.0.0-beta11",
-	"drupal/drupal": "8.0.0-beta11"
+	"drush/drush": "8.0.0-beta11"	
     },
     "authors": [
         {
